@@ -1,0 +1,16 @@
+Vexoo Labs Assignment Summary
+
+1. Implemented sliding window ingestion.
+2. Built 4-layer knowledge pyramid:
+   Raw, Summary, Category, Keywords.
+
+3. Retrieval uses similarity matching.
+
+4. GSM8K training simulated using lightweight model.
+
+5. Designed reasoning router:
+   - Math → math engine
+   - Legal → rule-based
+   - General → retrieval
+
+Design is modular and scalable.
